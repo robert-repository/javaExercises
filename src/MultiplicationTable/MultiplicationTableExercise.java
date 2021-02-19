@@ -7,4 +7,10 @@ public class MultiplicationTableExercise {
             System.out.println("5 * " + i + " = " + 5 * i);
         }
     }
+
+    void printMultiplicationTable(int table) {
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(table + " * " + i + " = " + table * i);
+        }
+    }
 }
