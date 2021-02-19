@@ -48,4 +48,11 @@ public class MethodExercises {
         int tAngle = 180 - (fAngle + sAngle);
         return tAngle;
     }
+
+    int calculateAverageOfThree(int fNum, int sNum, int tNum) {
+        int average = (fNum + sNum + tNum) / 3;
+        return average;
+    }
+
+
 }
