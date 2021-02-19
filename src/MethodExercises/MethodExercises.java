@@ -30,5 +30,22 @@ public class MethodExercises {
         }
     }
 
+    void printSum(int num1, int num2) {
+        System.out.println(num1 + num2);
+    }
 
+    int sumOfTwo(int firstNumber, int secondNumber) {
+        int sum = firstNumber + secondNumber;
+        return sum;
+    }
+
+    int sumOfThree(int fNum, int sNum, int tNum) {
+        int sum = fNum + sNum + tNum;
+        return sum;
+    }
+
+    int findThirdAngle(int fAngle, int sAngle) {
+        int tAngle = 180 - (fAngle + sAngle);
+        return tAngle;
+    }
 }
