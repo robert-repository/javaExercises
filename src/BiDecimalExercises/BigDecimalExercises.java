@@ -9,5 +9,8 @@ public class BigDecimalExercises {
 
         System.out.println(number1.add(number2));
         System.out.println(number1.max(number2));
+        int i = 3;
+        System.out.println(number1.add(new BigDecimal(i)));
+        System.out.println(number1.multiply(new BigDecimal(i)));
     }
 }
